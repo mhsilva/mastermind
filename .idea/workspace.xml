@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6531c877-b495-4d35-a508-76bf9570b6c8" name="Default Changelist" comment="" />
+    <list default="true" id="6531c877-b495-4d35-a508-76bf9570b6c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mastermind.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mastermind.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mastermind/META-INF/mastermind.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mastermind/META-INF/mastermind.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/guess/GuessService$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/guess/GuessService$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/guess/GuessService$transformGuess$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/guess/GuessService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/guess/GuessService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/input/Input.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/input/Input.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/input/InputFactory$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/input/InputFactory$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/input/InputFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/input/InputFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/input/InputFactoryEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/input/InputFactoryEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/pattern/PatternFactory$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/pattern/PatternFactory$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/pattern/PatternFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/pattern/PatternFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/util/ConstantsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/util/ConstantsKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/github/mastermind/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/github/mastermind/guess/GuessService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/github/mastermind/input/Input.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/github/mastermind/input/InputFactory.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/github/mastermind/input/InputFactoryEnum.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/github/mastermind/pattern/PatternFactory.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/github/mastermind/util/Constants.kt" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,15 +37,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/github/mastermind/Main.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mastermind/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
+            <state relative-caret-position="176">
               <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#30#174#0" expanded="true" />
@@ -27,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/io/github/mastermind/guess/GuessService.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mastermind/guess/GuessService.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="59" column="14" lean-forward="true" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+            <state relative-caret-position="308">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
               <folding>
                 <element signature="e#36#110#0" expanded="true" />
               </folding>
@@ -39,68 +65,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/github/mastermind/pattern/PatternFactory.kt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="220">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mastermind/pattern/PatternFactory.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
               <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#38#146#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Collections.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="382" column="39" selection-start-line="382" selection-start-column="39" selection-end-line="382" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/github/mastermind/input/InputFactory.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/github/mastermind/util/Constants.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/stream/Stream.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/github/mastermind/input/Input.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/github/mastermind/input/InputFactoryEnum.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -114,6 +95,9 @@
         <option value="Kotlin File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -129,21 +113,28 @@
         <option value="$PROJECT_DIR$/src/io/github/mastermind/Main.kt" />
         <option value="$PROJECT_DIR$/src/io/github/mastermind/pattern/PatternFactory.kt" />
         <option value="$PROJECT_DIR$/src/io/github/mastermind/guess/GuessService.kt" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="63" />
-    <option name="y" value="25" />
-    <option name="width" value="929" />
-    <option name="height" value="1055" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,42 +151,28 @@
               <item name="mastermind" type="b2602c69:ProjectViewProjectNode" />
               <item name="mastermind" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mastermind" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mastermind" type="b2602c69:ProjectViewProjectNode" />
               <item name="mastermind" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mastermind" type="462c0819:PsiDirectoryNode" />
-              <item name="guess" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastermind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mastermind" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mastermind" type="462c0819:PsiDirectoryNode" />
-              <item name="input" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastermind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mastermind" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mastermind" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastermind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mastermind" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mastermind" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CreateKotlinClassDialog.RecentsKey">
@@ -250,63 +227,62 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="25" width="1857" height="1055" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24958587" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3297414" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3297414" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39978448" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3297414" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/io/github/mastermind/Main.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/java/io/github/mastermind/Main.kt</url>
           <line>8</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/io/github/mastermind/guess/GuessService.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/java/io/github/mastermind/guess/GuessService.kt</url>
           <line>19</line>
           <properties />
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/io/github/mastermind/guess/GuessService.kt</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>pattern</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>guess.toList().stream().map { it.toInt() }.collect(Collectors.toList())</expression-string>
         <language-id>kotlin</language-id>
@@ -322,70 +298,14 @@
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>pattern</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/io/github/mastermind/input/ScannerUtil.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/Integer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.hotspot.agent/sun/jvm/hotspot/utilities/IntArray.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/mastermind/input/InputFactoryEnum.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/mastermind/pattern/Pattern.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/stream/Stream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/mastermind/util/Constants.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/mastermind/input/Input.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/mastermind/input/ScannerUtil.kt" />
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/Integer.class" />
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.hotspot.agent/sun/jvm/hotspot/utilities/IntArray.class" />
+    <entry file="file://$PROJECT_DIR$/src/io/github/mastermind/pattern/Pattern.kt" />
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/stream/Stream.class" />
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/util/Standard.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -393,30 +313,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/stream/Collectors.class">
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/stream/Collectors.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mastermind/input/InputFactoryEnum.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="644" column="8" selection-start-line="644" selection-start-column="8" selection-end-line="644" selection-end-column="8" />
+        <state relative-caret-position="44">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mastermind/input/Input.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mastermind/util/Constants.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mastermind/input/InputFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Collections.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
-          <caret line="382" column="39" selection-start-line="382" selection-start-column="39" selection-end-line="382" selection-end-column="39" />
+          <caret line="382" column="7" selection-start-line="382" selection-start-column="7" selection-end-line="382" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/mastermind/input/InputFactory.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mastermind/pattern/PatternFactory.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/mastermind/pattern/PatternFactory.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="550">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#38#146#0" expanded="true" />
@@ -424,9 +359,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/mastermind/Main.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mastermind/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="176">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#30#174#0" expanded="true" />
@@ -434,15 +369,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/mastermind/guess/GuessService.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mastermind/guess/GuessService.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="59" column="14" lean-forward="true" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+        <state relative-caret-position="308">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
           <folding>
             <element signature="e#36#110#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

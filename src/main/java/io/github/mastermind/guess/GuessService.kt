@@ -13,16 +13,18 @@ class GuessService(private val input: Input, private val pattern: Map<Int, Int>)
     }
 
     fun execute(): String {
-
+        correctNumber = 0
+        correctPosition = 0
         guessNumber++
 
-        val guess = readAndValidateGuess()
-        evaluateGuess(guess)
+        evaluateGuess(readAndValidateGuess())
+        println("Correct number $correctNumber; Correct position $correctPosition")
 
         return when {
-            correctPosition == input.patternSize -> "You broke the code in ${input.numberOfGuesses}"
+            correctPosition == input.patternSize -> "You broke the code in ${input.numberOfGuesses}guesses"
             guessNumber <= input.numberOfGuesses -> execute()
-            else -> "You were unable to break the code in ${input.numberOfGuesses} guesses"
+            else -> "You were unable to break the code in ${input.numberOfGuesses} guesses." +
+                    " The code is: ${pattern.keys.stream().map { it.toString() }.collect(Collectors.joining(""))}"
         }
     }
 
@@ -53,7 +55,7 @@ class GuessService(private val input: Input, private val pattern: Map<Int, Int>)
     }
 
     private fun transformGuess(guess: String): List<Int> {
-        return guess.toList().stream().map { it.toInt() }.collect(Collectors.toList())
+        return guess.toCharArray().map { it.toString().toInt() }.toList()
     }
 
     private fun validateGuess(guess: String?): String {
