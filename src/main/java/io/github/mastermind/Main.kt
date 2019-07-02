@@ -10,6 +10,6 @@ fun main() {
     val pattern: Map<Int, Int> = PatternFactory.createPattern(input)
 
     val guessService = GuessService(input, pattern)
-    println(guessService.execute())
+    println("******** ${guessService.execute()}")
 
 }

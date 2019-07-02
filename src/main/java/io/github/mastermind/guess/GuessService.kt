@@ -21,7 +21,7 @@ class GuessService(private val input: Input, private val pattern: Map<Int, Int>)
         println("Correct number $correctNumber; Correct position $correctPosition")
 
         return when {
-            correctPosition == input.patternSize -> "You broke the code in ${input.numberOfGuesses}guesses"
+            correctPosition == input.patternSize -> "You broke the code in ${guessNumber-1} guesses"
             guessNumber <= input.numberOfGuesses -> execute()
             else -> "You were unable to break the code in ${input.numberOfGuesses} guesses." +
                     " The code is: ${pattern.keys.stream().map { it.toString() }.collect(Collectors.joining(""))}"
