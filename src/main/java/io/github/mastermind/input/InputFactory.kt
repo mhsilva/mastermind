@@ -1,37 +1,42 @@
 package io.github.mastermind.input
 
-import java.lang.RuntimeException
+fun createInput(): Input {
+    return Input(
+        readAndValidate(InputType.NumberOfGuesses()) as InputType.NumberOfGuesses,
+        readAndValidate(InputType.PatternSize()) as InputType.PatternSize
+    )
+}
 
-class InputFactory {
-
-    companion object {
-        fun createInput(): Input {
-
-            return Input(
-                readAndValidate(InputFactoryEnum.NUMBER_OF_GUESSES),
-                readAndValidate(InputFactoryEnum.PATTERN_SIZE)
-            )
-        }
-
-        private fun readAndValidate(inputFactoryEnum: InputFactoryEnum): Int {
-
-            println("Type the ${inputFactoryEnum.value}: ")
-            val value: Int? = readLine()?.toIntOrNull()
-            try {
-                validation(value, inputFactoryEnum)
-            } catch (e: RuntimeException) {
-                println(e.message)
-                return readAndValidate(inputFactoryEnum)
-            }
-
-            return value!!
-        }
-
-        private fun validation(value: Int?, inputFactoryEnum: InputFactoryEnum) {
-            if (value == null)
-                throw RuntimeException("${inputFactoryEnum.value.capitalize()} cannot be null")
-            else if (inputFactoryEnum == InputFactoryEnum.PATTERN_SIZE && (value > 6 || value == 0))
-                throw RuntimeException("Invalid input for ${inputFactoryEnum.value}")
-        }
+private fun readAndValidate(inputType: InputType): InputType {
+    println("Type the ${inputType.label}: ")
+    val value = readLine()?.toIntOrNull()
+    return when (val result = validation(value, inputType)) {
+        is InputValidationResult.Error -> handleError(result.message, inputType)
+        is InputValidationResult.Success -> handleSuccess(inputType, value)
     }
+}
+
+fun handleSuccess(inputType: InputType, value: Int?): InputType {
+    value ?: error("Value cannot be empty at this point!!!")
+    return when (inputType) {
+        is InputType.PatternSize -> InputType.PatternSize(value)
+        is InputType.NumberOfGuesses -> InputType.NumberOfGuesses(value)
+    }
+}
+
+fun handleError(message: String, inputType: InputType): InputType {
+    println(message)
+    return readAndValidate(inputType)
+}
+
+private fun validation(value: Int?, inputType: InputType) =
+    when {
+        value == null -> InputValidationResult.Error("${inputType.label.capitalize()} cannot be null")
+        inputType is InputType.PatternSize && (value > 6 || value == 0) -> InputValidationResult.Error("Invalid input for ${inputType.label}")
+        else -> InputValidationResult.Success
+    }
+
+sealed class InputValidationResult {
+    object Success : InputValidationResult()
+    data class Error(val message: String) : InputValidationResult()
 }

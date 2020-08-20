@@ -2,32 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47c7599-7452-4837-a9ea-aa093a4a293a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mastermind/input/InputType.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mastermind.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mastermind.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mastermind/META-INF/mastermind.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/MainKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/guess/GuessService$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/guess/GuessService$execute$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/guess/GuessService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/input/Input.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/input/InputFactory$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/input/InputFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/input/InputFactoryEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/pattern/PatternFactory$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/pattern/PatternFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mastermind/io/github/mastermind/util/ConstantsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mastermind/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/mastermind/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mastermind/guess/GuessService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/mastermind/guess/GuessService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mastermind/input/Input.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mastermind/input/InputFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/mastermind/input/InputFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mastermind/input/InputFactoryEnum.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mastermind/pattern/PatternFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/mastermind/pattern/PatternFactory.kt" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/classes/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,39 +23,8 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mastermind/Main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mastermind/guess/GuessService.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mastermind/guess/GuessService.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mastermind/Main.kt" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -78,75 +33,22 @@
         <option name="pluginUpdatePolicy" value="DO_NOT_UPDATE" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="mastermind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mastermind" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastermind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mastermind" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastermind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mastermind" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastermind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mastermind" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastermind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mastermind" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mastermind" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1gJhJBihdqFKXSQa9sbF3uVxhBA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="io.github.mastermind.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -181,60 +83,31 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mastermind/guess/GuessService.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mastermind/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="88" y="27" width="1240" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597887083507">
+      <screen x="60" y="27" width="1306" height="741" />
+    </state>
+    <state x="88" y="27" width="1240" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/60.27.1306.741/397.1080.1366.768@60.27.1306.741" timestamp="1597887083507" />
+    <state width="1260" height="172" key="GridCell.Tab.0.bottom" timestamp="1597925832193">
+      <screen x="60" y="27" width="1306" height="741" />
+    </state>
+    <state width="1260" height="172" key="GridCell.Tab.0.bottom/60.27.1306.741/397.1080.1366.768@60.27.1306.741" timestamp="1597925832193" />
+    <state width="1260" height="172" key="GridCell.Tab.0.center" timestamp="1597925832192">
+      <screen x="60" y="27" width="1306" height="741" />
+    </state>
+    <state width="1260" height="172" key="GridCell.Tab.0.center/60.27.1306.741/397.1080.1366.768@60.27.1306.741" timestamp="1597925832192" />
+    <state width="1260" height="172" key="GridCell.Tab.0.left" timestamp="1597925832192">
+      <screen x="60" y="27" width="1306" height="741" />
+    </state>
+    <state width="1260" height="172" key="GridCell.Tab.0.left/60.27.1306.741/397.1080.1366.768@60.27.1306.741" timestamp="1597925832192" />
+    <state width="1260" height="172" key="GridCell.Tab.0.right" timestamp="1597925832192">
+      <screen x="60" y="27" width="1306" height="741" />
+    </state>
+    <state width="1260" height="172" key="GridCell.Tab.0.right/60.27.1306.741/397.1080.1366.768@60.27.1306.741" timestamp="1597925832192" />
+    <state x="376" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1597925121597">
+      <screen x="60" y="27" width="1306" height="741" />
+    </state>
+    <state x="376" y="89" width="672" height="678" key="search.everywhere.popup/60.27.1306.741/397.1080.1366.768@60.27.1306.741" timestamp="1597925121597" />
   </component>
   <component name="masterDetails">
     <states>

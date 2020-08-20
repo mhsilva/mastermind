@@ -21,49 +21,49 @@ class GuessService(private val input: Input, private val pattern: Map<Int, Int>)
         println("Correct number $correctNumber; Correct position $correctPosition")
 
         return when {
-            correctPosition == input.patternSize -> "You broke the code in ${guessNumber-1} guesses"
-            guessNumber <= input.numberOfGuesses -> execute()
+            correctPosition == input.patternSize.value -> "You broke the code in ${guessNumber - 1} guesses"
+            guessNumber <= input.numberOfGuesses.value -> execute()
             else -> "You were unable to break the code in ${input.numberOfGuesses} guesses." +
                     " The code is: ${pattern.keys.stream().map { it.toString() }.collect(Collectors.joining(""))}"
         }
     }
 
-    private fun evaluateGuess(guess: List<Int>) {
-        for (i in 0 until guess.size) {
-            val element = guess[i]
-            val indexOfElementInPattern = pattern[element]
-
-            if (indexOfElementInPattern != null) {
-                this.correctNumber++
-                if (i == indexOfElementInPattern)
-                    this.correctPosition++
-            }
+    private fun evaluateGuess(formattedGuess: List<Int>) {
+        for (elementIndex in formattedGuess.indices) {
+            val element = formattedGuess[elementIndex]
+            val indexOfElementInPattern = pattern[element] ?: continue
+            this.correctNumber++
+            if (elementIndex == indexOfElementInPattern)
+                this.correctPosition++
         }
     }
 
     private fun readAndValidateGuess(): List<Int> {
-
         println("Make your guess: ")
-        val guess = readLine()
-        try {
-            validateGuess(guess)
-        } catch (e: RuntimeException) {
-            println(e.message)
-            return readAndValidateGuess()
+        return when (val guess = validateGuess((readLine()))) {
+            is Guess.Error -> handleGuessInputError(guess)
+            is Guess.Success -> transformGuess(guess)
         }
-        return transformGuess(guess!!)
     }
 
-    private fun transformGuess(guess: String): List<Int> {
-        return guess.toCharArray().map { it.toString().toInt() }.toList()
+    private fun handleGuessInputError(guess: Guess.Error): List<Int> {
+        println(guess.message)
+        return readAndValidateGuess()
     }
 
-    private fun validateGuess(guess: String?): String {
+    private fun validateGuess(inputGuess: String?): Guess =
         when {
-            guess == null -> throw RuntimeException("Guess cannot be null or empty")
-            guess.length != this.input.patternSize -> throw RuntimeException("Invalid length for guess")
-            guess.contains("\\D") -> throw RuntimeException("Guess must contain only numbers")
+            inputGuess == null -> Guess.Error("Guess cannot be null or empty")
+            inputGuess.length != this.input.patternSize.value -> Guess.Error("Invalid length for guess")
+            inputGuess.contains("\\D") -> Guess.Error("Guess must contain only numbers")
+            else -> Guess.Success(inputGuess)
         }
-        return guess!!
+
+    private fun transformGuess(guess: Guess.Success): List<Int> =
+        guess.value.toCharArray().map { it.toString().toInt() }
+
+    sealed class Guess {
+        data class Success(val value: String) : Guess()
+        data class Error(val message: String) : Guess()
     }
 }
